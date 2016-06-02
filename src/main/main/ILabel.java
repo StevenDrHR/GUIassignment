@@ -1,8 +1,8 @@
 package main.main;
 
 /**
- * Created by Steven on 31-5-2016.
+ * Created by Willem on 2-6-2016.
  */
-public interface IButton {
+public interface ILabel {
     void visit(IAssetListVisitor Visitor);
 }

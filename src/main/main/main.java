@@ -21,7 +21,8 @@ public class main extends Application {
     public static void main(String[] args) {
         launch(args);
         List<main.main.Button> list = new ArrayList<main.main.Button>();
-        IButtonListVisitor visje = new ButtonListVisitor();
+        IAssetListVisitor visje = new AssetListVisitor();
+        IAssetListVisitor visje2 = new AssetListVisitor();
 
     }
 

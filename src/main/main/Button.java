@@ -9,7 +9,7 @@ import java.util.List;
 public class Button implements IButton {
 
     @Override
-    public void visit(IButtonListVisitor Visitor) {
+    public void visit(IAssetListVisitor Visitor) {
         Visitor.onButton(this);
     }
 }
